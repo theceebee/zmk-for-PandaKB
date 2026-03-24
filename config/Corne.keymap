@@ -55,5 +55,35 @@
                         >;
                 display-name = "LAYER 2";
                 };
+
+                dummy_layer_0 {
+                        bindings = <>;
+                        display-name = "LAYER 3";
+                };
+
+                dummy_layer_1 {
+                        bindings = <>;
+                        display-name = "LAYER 4";
+                };
+
+                dummy_layer_2 {
+                        bindings = <>;
+                        display-name = "LAYER 5";
+                };
+
+                dummy_layer_3 {
+                        bindings = <>;
+                        display-name = "LAYER 6";
+                };
+
+                dummy_layer_4 {
+                        bindings = <>;
+                        display-name = "LAYER 7";
+                };
+
+                dummy_layer_5 {
+                        bindings = <>;
+                        display-name = "LAYER 8";
+                };
         };
 };
