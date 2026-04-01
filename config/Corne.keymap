@@ -22,7 +22,7 @@
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                  &kp LGUI &sys_reset &bt BT_CLEAR_ALL   &bt BT_CLEAR_ALL &sys_reset &kp RALT
+         &kp LGUI &sys_reset &bt BT_CLR_ALL  &bt BT_CLR_ALL &sys_reset &kp RALT
                         >;
                 display-name = "LAYER 0";
                 };
