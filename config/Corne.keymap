@@ -13,12 +13,23 @@
 #define ___ &trans
 
 / {
+    behaviors {
+        sl_mod: sticky_layer_ignore_mods {
+            compatible = "zmk,behavior-sticky-key";
+            #binding-cells = <1>;
+            bindings = <&mo>;
+            release-after-ms = <1000>;
+            ignore-modifiers;
+            quick-release;
+        };
+    };
+
     combos {
         compatible = "zmk,combos";
         combo_function_layer {
             timeout-ms = <50>;
             key-positions = <18 19>;
-            bindings = <&sl 4>;
+            bindings = <&sl_mod 4>;
         };
     };
 
